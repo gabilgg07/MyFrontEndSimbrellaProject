@@ -1,0 +1,932 @@
+// responsive for 1280
+@media screen and (max-width: 1280px) {
+    /*#region for Index*/
+    main {
+        .partners {
+            &__table {
+                &__image {
+                    width: calc((100% - 60px) / 3);
+                }
+            }
+        }
+    }
+    footer.indexFooter {
+        .footer {
+            .contacts_footer {
+                h2 {
+                    margin: -8px 0 0;
+                }
+                .info-us {
+                    &__header {
+                        padding: 0 0 60px;
+                        ul {
+                            li {
+                                padding: 0 20px;
+                            }
+                        }
+                    }
+                    &__tabs {
+                        ul {
+                            li {
+                                padding: 0 0 30px;
+                                span {
+                                    padding: 0 0 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+}
+
+// responsive for 1180
+@media screen and (max-width:1180px) {
+    /*#region for Index*/
+    main {
+        .index-solutions {
+            &__wrapper {
+                &__header {
+                    padding: 0 10px;
+                    &__h2 {
+                        max-width: 300px;
+                        font-size: 32px;
+                    }
+                }
+                &__list {
+                    padding: 0 10px;
+                    &__ul {
+                        li {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+}
+
+// responsive for 1024
+@media screen and (max-width:1024px) {
+    /*#region Common css */
+    h1.headerH1,
+    h2.headerH2 {
+        font-size: 32px;
+    }
+    header {
+        .simbrella_header {
+            height: 320px;
+            padding: 0 0 40px;
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region Index css */
+    section#nav {
+        .nav {
+            &__nav-list {
+                display: none;
+            }
+            &__nav-burger {
+                display: flex;
+            }
+        }
+    }
+    section#scroll {
+        display: none;
+    }
+    section#index_first {
+        .home__info {
+            h1 {
+                font-size: 32px;
+                padding-bottom: 0;
+                transition: all 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
+            }
+        }
+    }
+    main {
+        .what-we-do {
+            &__wrapper {
+                &__item {
+                    width: calc(33.333% - 15px);
+                    padding: 20px 10px 15px;
+                    &__image {
+                        height: 210px;
+                    }
+                    &__h3 {
+                        font-size: 21px;
+                    }
+                }
+            }
+        }
+        .index-solutions {
+            &__wrapper {
+                &__list {
+                    &__ul {
+                        padding: 0 20px;
+                    }
+                }
+            }
+        }
+        .achievements {
+            padding: 35px 0 40px;
+            &__wrapper {
+                &__h2 {
+                    padding: 0 0 10px;
+                }
+                &__contents {
+                    padding: 40px 0;
+                    .texts {
+                        padding: 10px 0;
+                        h3 {
+                            font-size: 32px;
+                        }
+                    }
+                }
+            }
+        }
+        #index_world {
+            display: none;
+        }
+        #index_world_mobile {
+            display: block!important;
+        }
+        .partners {
+            &__table {
+                &__image {
+                    width: calc((100% - 40px) / 3);
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .index-team {
+            display: none;
+            &.fixedTeam {
+                display: block;
+                position: fixed;
+                visibility: visible;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background: #fff;
+                height: calc(100vh - 0px);
+                padding: 25px 0 60px;
+                z-index: 4;
+                overflow-y: scroll;
+                .index-team__wrapper {
+                    &__h2 {
+                        padding: 0 0 20px;
+                    }
+                    &__items {
+                        .content-item {
+                            width: calc(25% - 20px);
+                            margin: 0 10px 48px;
+                            .image {
+                                height: 30vw;
+                            }
+                            &:nth-child(1),
+                            &:nth-child(5) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .closeTeam {
+                display: block;
+            }
+        }
+        .news {
+            padding: 35px 0 40px;
+            &__wrapper {
+                &__header {
+                    padding: 0 0 30px;
+                }
+                &__contents {
+                    .content-item {
+                        .image {
+                            margin: 0 0 15px;
+                        }
+                        h3 {
+                            padding: 0 0 24px;
+                            font-size: 16px;
+                        }
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer.indexFooter {
+        .footer {
+            padding: 30px 0 30px;
+            .contacts_footer {
+                h2 {
+                    margin: -10px 0 0;
+                }
+                .info-us {
+                    width: calc(100% - 240px);
+                    &__header {
+                        padding: 0 0 40px;
+                        display: block;
+                        ul {
+                            padding-bottom: 10px;
+                            li {
+                                padding: 0 20px;
+                            }
+                        }
+                    }
+                    &__tabs {
+                        ul {
+                            li {
+                                padding: 0 0 20px;
+                                span {
+                                    padding: 0 0 8px;
+                                    font-size: 16px;
+                                }
+                                p {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region What We Do css */
+    header.wwdHeader {
+        height: 320px;
+        padding: 0 0 40px;
+    }
+    main {
+        .articles {
+            .article {
+                padding: 40px 0;
+                .wwd_wrapper {
+                    display: block!important;
+                    &__image {
+                        width: 100%;
+                    }
+                    &__list {
+                        width: 100%;
+                        padding: 30px 0 0;
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region All Vacancies css*/
+    main {
+        .vacancies_list {
+            padding: 40px 0;
+            &__wrapper {
+                &__item {
+                    width: calc((100% - 20px) / 2);
+                    margin-bottom: 20px;
+                    height: 120px;
+                    padding: 30px 20px;
+                    h3 {
+                        font-size: 21px;
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region Braanches css*/
+    main {
+        .branches {
+            padding: 40px 0 40px;
+            &__wrapper {
+                &__item {
+                    width: calc((100% - 20px) / 2);
+                    height: 425px;
+                    margin-bottom: 20px;
+                    &:nth-child(8),
+                    &:nth-child(9) {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region All News css */
+    main {
+        #news {
+            .news__wrapper {
+                &__contents {
+                    .content-item {
+                        width: calc((100% - 20px) / 2);
+                        margin-bottom: 40px;
+                        margin-left: 0;
+                        &:nth-child(5),
+                        &:nth-child(4) {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+}
+
+// responsive for 767
+@media screen and (max-width:767px) {
+    /*#region Common*/
+    h1.headerH1,
+    h2.headerH2 {
+        font-size: 27px;
+    }
+    header {
+        .simbrella_header {
+            height: 270px;
+            padding: 0 0 30px;
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region Index css*/
+    section#index_first {
+        .home__info {
+            padding: 120px 0 90px;
+            h1 {
+                font-size: 27px;
+            }
+        }
+    }
+    header.indexHeader {
+        height: auto;
+    }
+    main {
+        .what-we-do {
+            &__wrapper {
+                &__item {
+                    width: 100%;
+                    padding: 20px 20px;
+                    margin: 0 0 20px;
+                }
+            }
+        }
+        .index-solutions {
+            min-height: 1px;
+            height: auto;
+            &__wrapper {
+                flex-direction: column;
+                text-align: center;
+                &__header {
+                    width: 100%;
+                    padding: 120px 0px 120px;
+                    &__h2 {
+                        font-size: 26px;
+                    }
+                }
+                &__list {
+                    width: 100%;
+                    padding: 0px;
+                    &__ul {
+                        li {
+                            font-weight: 200;
+                            padding: 20px 0;
+                        }
+                    }
+                }
+            }
+        }
+        .achievements {
+            &__wrapper {
+                &__contents {
+                    border: none!important;
+                    padding: 0;
+                    flex-direction: column;
+                    .texts {
+                        width: 100%;
+                        padding: 20px 0;
+                        h3 {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .partners {
+            &__table {
+                &__image {
+                    width: calc((100% - 14px) / 2);
+                    margin-bottom: 11px;
+                }
+            }
+        }
+        .index-team {
+            &.fixedTeam {
+                .index-team__wrapper {
+                    &__items {
+                        .content-item {
+                            width: calc(50% - 20px);
+                            .image {
+                                height: 60vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .jobs {
+            padding: 30px 0 0px;
+            &__wrapper {
+                &__h2 {
+                    padding: 0 0 20px;
+                }
+                &__items {
+                    padding: 0 0 10px;
+                    .advantage {
+                        width: calc(33.333% - 10px);
+                        padding: 0 0 30px;
+                        text-align: center;
+                        .icon {
+                            img {
+                                width: 48px;
+                            }
+                        }
+                        h3 {
+                            padding: 0 0 10px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .advantage_article {
+            padding: 0 0 30px;
+            &__wrapper {
+                display: block!important;
+                .image {
+                    width: 100%;
+                    img {
+                        border-radius: 4px 4px 0 0;
+                    }
+                }
+                .text-content {
+                    width: 100%;
+                    padding: 20px 20px 25px;
+                    margin: 0;
+                    border-radius: 0 0 4px 4px;
+                    h3 {
+                        padding: 0 0 20px;
+                        font-size: 27px;
+                    }
+                    p {
+                        padding: 0 0 20px;
+                    }
+                }
+            }
+        }
+        .news {
+            &__wrapper {
+                &__header {
+                    padding: 0 0 20px;
+                }
+                &__contents {
+                    display: block!important;
+                    .content-item {
+                        width: 100%;
+                        padding: 0 0 30px;
+                        h3 {
+                            padding: 0 0 20px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer.indexFooter {
+        .footer {
+            padding: 20px 0 20px;
+            .contacts_footer {
+                display: block;
+                h2 {
+                    padding: 0 0 20px;
+                }
+                .info-us {
+                    width: 100%;
+                    &__header {
+                        padding: 0 0 60px;
+                        ul {
+                            padding: 0 0 30px;
+                            li {
+                                a {
+                                    font-size: 21px;
+                                }
+                            }
+                        }
+                    }
+                    &__tabs {
+                        ul {
+                            li {
+                                span {
+                                    padding: 0 0 4px;
+                                    font-size: 14px;
+                                }
+                                p {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region What We Do css*/
+    header.wwdHeader {
+        height: 270px!important;
+        padding: 0 0 30px!important;
+    }
+    footer {
+        .simpleFooter {
+            display: block;
+            text-align: center;
+            .jis {
+                justify-content: center;
+            }
+            .copyright {
+                width: 100%;
+                padding: 10px 0 0;
+                font-size: 14px;
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region All Vacancies css*/
+    header {
+        .vacancies_header {
+            &__wrapper {
+                display: block;
+                .text_contents {
+                    width: 100%;
+                }
+                .image {
+                    display: none;
+                }
+            }
+        }
+    }
+    main {
+        .vacancies_list {
+            &__wrapper {
+                display: block;
+                &__item {
+                    width: 100%;
+                    height: 90px;
+                    &:nth-child(9) {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region Braanches */
+    main {
+        .branches {
+            padding: 30px 0 40px;
+            &__wrapper {
+                display: block;
+                &__item {
+                    width: 100%;
+                    height: 360px;
+                    margin-bottom: 20px;
+                    min-height: 1px;
+                    padding: 30px 30px 100px;
+                    &:nth-child(9) {
+                        margin-bottom: 0;
+                    }
+                    h2 {
+                        font-size: 27px;
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region All News css */
+    main {
+        #news {
+            .news__wrapper {
+                &__contents {
+                    display: flex!important;
+                    .content-item {
+                        width: calc((100% - 20px) / 2)!important;
+                        margin-bottom: 40px;
+                        margin-left: 0;
+                        &:nth-child(5),
+                        &:nth-child(4) {
+                            margin: 0;
+                        }
+                        h3 {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region Current News css*/
+    main {
+        .current_news {
+            padding: 0px 0 40px;
+            h1 {
+                padding: 0 0 20px;
+                font-size: 24px;
+            }
+            .text {
+                font-size: 16px;
+                .main_image {
+                    padding: 0 0 30px;
+                }
+                p {
+                    padding: 0 0 25px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    /*#endregion */
+}
+
+// responsive for 575
+@media screen and (max-width: 575px) {
+    /*#region Index css*/
+    main {
+        .what-we-do {
+            &__h2 {
+                padding: 0 0 10px;
+            }
+            &__link {
+                justify-content: flex-start!important;
+            }
+        }
+        .index-world-mobile {
+            &__wrapper {
+                &__country {
+                    .country-list {
+                        p {
+                            width: calc((100% - 18px) / 2);
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+}
+
+// responsive for 480
+@media screen and (max-width:480px) {
+    /*#region Common css*/
+    .logo {
+        a {
+            width: 130px!important;
+            height: 45px!important;
+        }
+    }
+    h1.headerH1,
+    h2.headerH2 {
+        font-size: 24px;
+    }
+    header {
+        .simbrella_header {
+            height: auto;
+            padding: 120px 0 30px;
+            &__h1 {
+                display: block;
+                h1 {
+                    padding: 0 0 20px;
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region Index css*/
+    section#index_first {
+        .home__info {
+            max-width: 58%;
+            padding: 35vw 0 0px;
+            h1 {
+                font-size: 21px;
+                padding: 0 0 16px;
+            }
+        }
+    }
+    main {
+        .what-we-do {
+            padding: 30px 0;
+            &__header {
+                display: block;
+            }
+        }
+        .achievements {
+            padding: 30px 0;
+            &__wrapper {
+                text-align: center;
+                &__h2 {
+                    padding: 0 0 10px;
+                }
+                &__contents {
+                    display: block!important;
+                    .texts {
+                        h3 {
+                            padding: 0 0 6px;
+                            font-size: 27px;
+                        }
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .news {
+            &__wrapper {
+                &__header {
+                    .link {
+                        a {
+                            padding: 0 70px 0 24px;
+                        }
+                    }
+                }
+                &__contents {
+                    span {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    footer.indexFooter {
+        .footer {
+            min-height: 1px;
+            .contacts_footer {
+                .info-us {
+                    &__header {
+                        padding: 0 0 30px;
+                        ul {
+                            li {
+                                padding: 0 10px;
+                                a {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region What We Do css*/
+    header.wwdHeader {
+        height: auto!important;
+        padding: 120px 0 30px!important;
+    }
+    main {
+        .articles {
+            .article {
+                .wwd_wrapper {
+                    &__list {
+                        ul {
+                            font-size: 16px;
+                            li {
+                                margin: 0 0 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region All Vacancies css*/
+    header {
+        .vacancies_header {
+            &__wrapper {
+                .text-content {
+                    width: 100%;
+                    h1 {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .vacancies_list {
+            padding: 20px 0;
+            &__wrapper {
+                &__item {
+                    padding: 20px 20px;
+                    h3 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region Braanches */
+    main {
+        .branches {
+            &__wrapper {
+                &__item {
+                    padding: 20px 20px 100px;
+                }
+            }
+        }
+    }
+    /*#endregion */
+    /*#region All News css */
+    main {
+        #news {
+            .news__wrapper {
+                &__contents {
+                    display: block!important;
+                    .content-item {
+                        width: 100%!important;
+                        margin-bottom: 30px;
+                        &:nth-child(5) {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*#endregion */
+    ////////////////////////////
+    /*#region Current News css*/
+    main {
+        .current_news {
+            h1 {
+                font-size: 21px;
+            }
+        }
+    }
+    /*#endregion */
+}
+
+// responsive for 300
+@media screen and (max-width:300px) {
+    /*#region All Vacancies css*/
+    main {
+        .vacancies_list {
+            &__wrapper {
+                &__item {
+                    height: auto;
+                }
+            }
+        }
+    }
+    /*#endregion */
+}
+
+// responsive for 800 height
+@media screen and (min-height:800px) {
+    /*#region Index css*/
+    main {
+        .news {
+            min-height: 60vh!important;
+        }
+    }
+    footer.indexFooter {
+        .footer {
+            min-height: 60vh!important;
+        }
+    }
+    /*#endregion */
+}

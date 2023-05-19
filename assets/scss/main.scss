@@ -1,0 +1,26 @@
+// Bootstrap
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/bootstrap-grid.scss";
+@import "../bootstrap/scss/list-group";
+// Variables
+@import "./variables/colors";
+@import "./variables/borders";
+@import "./variables/spacing";
+// Mixins
+@import "./mixins/border";
+@import "./mixins/flexbox";
+//Others
+@import "./others/default";
+@import "./others/common";
+// Pages
+@import "./pages/index";
+@import "./pages/what-we-do";
+@import "./pages/all_vacancies";
+@import "./pages/vacancie";
+@import "./pages/all_news";
+@import "./pages/news";
+@import "./pages/branches";
+//Others
+@import "./others/keyframes";
+//Responsives
+@import "./responsives/media";

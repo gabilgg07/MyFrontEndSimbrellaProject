@@ -1,0 +1,77 @@
+.vacancies_header {
+    padding: 120px 0 40px;
+    min-height: 1px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .text_contents {
+            width: calc(45% - 40px);
+            h1 {
+                padding: 0 0 32px;
+                font-size: 32px;
+                color: #222;
+            }
+            .text {
+                p {
+                    padding: 0 0 20px;
+                    font-size: 18px;
+                    line-height: 1.56;
+                    color: #5F6773;
+                    a {
+                        color: #0e80e5;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .image {
+            width: auto;
+            img {
+                width: 460px;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.vacancies_list {
+    padding: 100px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+            height: 150px;
+            background: #fff;
+            border: 1px solid $color-primary;
+            border-radius: 4px;
+            width: calc((100% - 30px) / 2);
+            margin-bottom: 30px;
+            transition: all 0.15s linear;
+            &:nth-child(9),
+            &:nth-child(10) {
+                margin-bottom: 0;
+            }
+            &:hover {
+                background-color: $color-primary;
+                h3 {
+                    color: white;
+                }
+            }
+            h3 {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 1.4;
+                letter-spacing: 0.01em;
+                color: #222;
+                text-align: center;
+                transition: all 0.15s linear;
+            }
+        }
+    }
+}

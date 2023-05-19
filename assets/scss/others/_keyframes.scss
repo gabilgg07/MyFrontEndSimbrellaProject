@@ -1,0 +1,56 @@
+// Start Menu Icon Animation
+@keyframes upLineToDown {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 6px;
+        transform: rotate( 0deg);
+    }
+    100% {
+        top: 6px;
+        transform: rotate( 135deg);
+    }
+}
+
+@keyframes upLineToUp {
+    0% {
+        top: 6px;
+        transform: rotate( 135deg);
+    }
+    50% {
+        top: 6px;
+        transform: rotate( 0deg);
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes downLineToUp {
+    0% {
+        top: 12px;
+    }
+    50% {
+        top: 6px;
+        transform: rotate( 0deg);
+    }
+    100% {
+        top: 6px;
+        transform: rotate( 225deg);
+    }
+}
+
+@keyframes downLineToDown {
+    0% {
+        top: 6px;
+        transform: rotate( 225deg);
+    }
+    50% {
+        top: 6px;
+        transform: rotate( 0deg);
+    }
+    100% {
+        top: 12px;
+    }
+}
